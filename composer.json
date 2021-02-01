@@ -1,0 +1,23 @@
+{
+    "name": "flytoper/pear-admin-component",
+    "description": "基于 Pear-Admin-Layui 的 TP5后端组件",
+	"license":"MIT",
+    "require": {
+        "php": ">=5.5"
+	},
+    "require-dev": {
+        "php": ">=5.4"
+    },
+    "authors": [
+        {
+            "name": "Fly",
+            "email": "fly13138@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+        "psr-4": {
+            "FlyToper\\PearAdminComponent\\": "src/"
+        }
+    }
+}
