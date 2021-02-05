@@ -5,7 +5,10 @@
  * DateTime：2021/2/2 6:51
  */
 
-namespace FlyToper\PearAdminComponent\headers;
+namespace flytoper\pac;
+
+use flytoper\pac\headers\Basic;
+use flytoper\pac\headers\Checkbox;
 
 class Header
 {
@@ -30,7 +33,7 @@ class Header
     {
         $data = [];
         foreach ($this->cols as $field => $title) {
-            if($title instanceof CheckBox) {
+            if($title instanceof Checkbox) {
                 $item = ['type' => 'checkbox'];
             }else if($title instanceof Basic) {
                 $item = $title->conf;

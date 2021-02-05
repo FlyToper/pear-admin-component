@@ -5,7 +5,7 @@
  * DateTime：2021/2/2 6:49
  */
 
-namespace FlyToper\PearAdminComponent;
+namespace flytoper\pac;
 
 class Form
 {

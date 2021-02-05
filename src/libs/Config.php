@@ -5,7 +5,7 @@
  * DateTime：2021/2/2 6:53
  */
 
-namespace FlyToper\PearAdminComponent\libs;
+namespace flytoper\pac\libs;
 
 class Config
 {

@@ -17,7 +17,7 @@
     "minimum-stability": "dev",
 	"autoload": {
         "psr-4": {
-            "FlyToper\\PearAdminComponent\\": "src/"
+            "flytoper\\pac\\": "src/"
         }
     }
 }
