@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'FlyToper\\PearAdminComponent\\' => array($baseDir . '/src'),
+    'flytoper\\pac\\' => array($baseDir . '/src'),
 );

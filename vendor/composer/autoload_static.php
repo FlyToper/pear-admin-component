@@ -7,17 +7,21 @@ namespace Composer\Autoload;
 class ComposerStaticInit0638b8d70b79763db4853ef5c0acd136
 {
     public static $prefixLengthsPsr4 = array (
-        'F' => 
+        'f' => 
         array (
-            'FlyToper\\PearAdminComponent\\' => 28,
+            'flytoper\\pac\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'FlyToper\\PearAdminComponent\\' => 
+        'flytoper\\pac\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+    );
+
+    public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -25,6 +29,7 @@ class ComposerStaticInit0638b8d70b79763db4853ef5c0acd136
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit0638b8d70b79763db4853ef5c0acd136::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit0638b8d70b79763db4853ef5c0acd136::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0638b8d70b79763db4853ef5c0acd136::$classMap;
 
         }, null, ClassLoader::class);
     }
