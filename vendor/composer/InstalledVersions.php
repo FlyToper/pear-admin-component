@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'a49aca77342e1dd2433542a67fc2ab9ae1251665',
+    'reference' => 'fa60bf17d4c39b99c905e112a26bbf859dee48fc',
     'name' => 'flytoper/pear-admin-component',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'a49aca77342e1dd2433542a67fc2ab9ae1251665',
+      'reference' => 'fa60bf17d4c39b99c905e112a26bbf859dee48fc',
     ),
   ),
 );
