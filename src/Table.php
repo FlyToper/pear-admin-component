@@ -85,12 +85,6 @@ class Table
         try {
 
 
-
-
-
-
-
-
         } catch (\Exception $e) {
             return Tools::ePrint($e, '组件配置报错');
         }

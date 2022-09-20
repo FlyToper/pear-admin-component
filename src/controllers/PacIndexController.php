@@ -7,21 +7,39 @@
 
 namespace flytoper\pac\controllers;
 
+use flytoper\pac\libs\PacBuilder;
+use flytoper\pac\libs\Tools;
+
 class PacIndexController
 {
+
+
+
     public function index()
+    {
+
+    }
+
+    public function pearConfig()
+    {
+        $data = PacBuilder::getPearConfig();
+        return Tools::jsonReturn($data);
+    }
+
+    public function login()
     {
 
     }
 
     public function menu()
     {
-
+        return PacBuilder::getMenuData();
     }
 
     public function config()
     {
-
+        return PacBuilder::getConfig();
     }
+
 
 }
